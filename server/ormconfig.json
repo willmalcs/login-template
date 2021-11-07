@@ -1,0 +1,19 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "postgres",
+   "database": "personaldb",
+   "synchronize": true,
+   "logging": true,
+   "entities": [
+      "dist/entities/**/*.js"
+   ],
+   "migrations": [
+      "dist/migrations/**/*.js"
+   ],
+   "subscribers": [
+      "dist/subscribers/**/*.js"
+   ]
+}

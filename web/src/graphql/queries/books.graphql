@@ -1,0 +1,14 @@
+query Books {
+  books {
+    id
+    title
+    author
+    pages
+    isCurrentlyReading
+    categories
+    description
+    readingStartDate
+    readingEndDate
+    readingTime
+  }
+}
